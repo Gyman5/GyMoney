@@ -1,0 +1,26 @@
+[Unit]
+Description=GyMoney's distributed currency daemon
+After=network.target
+
+[Service]
+User=GyMoney
+Group=GyMoney
+
+Type=forking
+PIDFile=/var/lib/GyMoneyd/GyMoneyd.pid
+
+ExecStart=/usr/bin/GyMoneyd -daemon -pid=/var/lib/GyMoneyd/GyMoneyd.pid \
+          -conf=/etc/GyMoney/GyMoney.conf -datadir=/var/lib/GyMoneyd
+
+ExecStop=-/usr/bin/GyMoney-cli -conf=/etc/GyMoney/GyMoney.conf \
+         -datadir=/var/lib/GyMoneyd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ca">locale/GyMoney_ca.qm</file>
+        <file alias="da">locale/GyMoney_da.qm</file>
+        <file alias="de">locale/GyMoney_de.qm</file>
+        <file alias="en">locale/GyMoney_en.qm</file>
+        <file alias="en_US">locale/GyMoney_en_US.qm</file>
+        <file alias="es">locale/GyMoney_es.qm</file>
+        <file alias="fr_FR">locale/GyMoney_fr_FR.qm</file>
+        <file alias="it">locale/GyMoney_it.qm</file>
+        <file alias="ja">locale/GyMoney_ja.qm</file>
+        <file alias="pt">locale/GyMoney_pt.qm</file>
+        <file alias="ro_RO">locale/GyMoney_ro_RO.qm</file>
+        <file alias="ru">locale/GyMoney_ru.qm</file>
+        <file alias="zh_TW">locale/GyMoney_zh_TW.qm</file>
+    </qresource>
+</RCC>

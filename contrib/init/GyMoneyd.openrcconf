@@ -1,0 +1,26 @@
+# /etc/conf.d/GyMoneyd: config file for /etc/init.d/GyMoneyd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/GyMoney/GyMoney.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/GyMoneyd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/GyMoneyd.pid"
+
+# Where to write GyMoneyd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/GyMoneyd"
+
+# User and group to own GyMoneyd process
+#BITCOIND_USER="GyMoney"
+#BITCOIND_GROUP="GyMoney"
+
+# Path to GyMoneyd executable
+#BITCOIND_BIN="/usr/bin/GyMoneyd"
+
+# Nice value to run GyMoneyd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

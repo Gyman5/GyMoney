@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NanuCoin
+Comment=NanuCoin P2P Cryptocurrency
+Exec=nanucoin-qt %u
+Terminal=false
+Type=Application
+Icon=nanucoin128
+MimeType=x-scheme-handler/nanucoin;
+Categories=Office;Finance;
+Name[en_US]=GyMoney-qt.desktop
